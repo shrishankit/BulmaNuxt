@@ -6,7 +6,7 @@
         Bulma on nuxt
       </h1>
       <h2 class="subtitle">
-        A Bulma &amp; buefy based nuxt application with Dashboard
+        A Bulma &amp; buefy based nuxt application with Dashboard and more..
       </h2>
       <div class="links">
         <a
