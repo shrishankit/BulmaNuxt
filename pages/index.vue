@@ -3,7 +3,7 @@
     <div>
       <logo />
       <h1 class="title">
-        bulma_on_nuxt
+        Bulma on nuxt
       </h1>
       <h2 class="subtitle">
         A Bulma &amp; buefy based nuxt application with Dashboard
