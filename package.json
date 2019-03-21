@@ -1,0 +1,22 @@
+{
+  "name": "bulma_on_nuxt",
+  "version": "1.0.0",
+  "description": "A Bulma &amp; buefy based nuxt application with Dashboard",
+  "author": "Shrish Ankit",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/bulma": "^1.2.1",
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
