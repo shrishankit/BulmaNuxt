@@ -13,8 +13,12 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/bulma": "^1.2.1",
+    "bulma-carousel": "^4.0.4",
+    "core-js": "^2.6.5",
     "cross-env": "^5.2.0",
-    "nuxt": "^2.4.5"
+    "nuxt": "^2.4.5",
+    "nuxt-buefy": "^0.3.5",
+    "vue-sidebar-menu": "^3.7.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"

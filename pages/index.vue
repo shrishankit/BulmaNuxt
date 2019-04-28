@@ -1,35 +1,41 @@
 <template>
-  <section class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        Bulma on nuxt
-      </h1>
-      <h2 class="subtitle">
-        A Bulma &amp; buefy based nuxt application with Dashboard and more..
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >GitHub</a>
+  <section>
+   <div id="contentarea" :class="[{'collapsed' : this.$store.getters['isCollapsed']}]">
+      <!-- {{ this.$store.getters['main/isCollapsed'] }} -->
+      
+      <div class="maincontent">
+       <mainheader></mainheader>
+        <section class="hero is-medium has-carousel">
+			<div id="carousel-demo" class="hero-carousel">
+				<div class="item-1">
+					this
+				</div>
+				<div class="item-3">
+					<!-- Slide Content -->
+				</div>
+			</div>
+			<div class="hero-head"></div>
+			<div class="hero-body"></div>
+			<div class="hero-foot"></div>
+		</section>
+
       </div>
     </div>
   </section>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import mainheader from '../components/header'
 
 export default {
+  data() {
+    return {
+      isSwitched:false,
+      onBackgroundColor:true
+    }
+  },
   components: {
-    Logo
+      mainheader
   }
 }
 </script>

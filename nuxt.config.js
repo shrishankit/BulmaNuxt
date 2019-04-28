@@ -14,8 +14,11 @@ export default {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+    ],
+    
+    link: [{rel:"stylesheet", href:"https://use.fontawesome.com/releases/v5.7.2/css/all.css", integrity:"sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr", crossorigin:"anonymous"}]
+
   },
 
   /*
@@ -27,12 +30,16 @@ export default {
   ** Global CSS
   */
   css: [
+    './css/main.css',
+    // './node_modules/bulma-carousel/dist/css/bulma-carousel.min.css'
   ],
 
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
+    // { src: '~plugins/main.js', ssr: false },
+    // { src: '~plugins/carousel.js', ssr: false },
   ],
 
   /*
@@ -43,6 +50,8 @@ export default {
     '@nuxtjs/axios',
     // Doc:https://github.com/nuxt-community/modules/tree/master/packages/bulma
     '@nuxtjs/bulma',
+    // Buefy
+    'nuxt-buefy',
   ],
   /*
   ** Axios module configuration
@@ -66,6 +75,7 @@ export default {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
+
     }
   }
 }
