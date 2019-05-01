@@ -1,43 +1,38 @@
 <template>
   <section>
-   <div id="contentarea" :class="[{'collapsed' : this.$store.getters['isCollapsed']}]">
+    <div id="contentarea" :class="[{'collapsed' : this.$store.getters['isCollapsed']}]">
       <!-- {{ this.$store.getters['main/isCollapsed'] }} -->
-      
-      <div class="maincontent">
-       <mainheader></mainheader>
-        <section class="hero is-medium has-carousel">
-			<div id="carousel-demo" class="hero-carousel">
-				<div class="item-1">
-					this
-				</div>
-				<div class="item-3">
-					<!-- Slide Content -->
-				</div>
-			</div>
-			<div class="hero-head"></div>
-			<div class="hero-body"></div>
-			<div class="hero-foot"></div>
-		</section>
 
+      <div class="maincontent">
+        <mainheader></mainheader>
+        <bigslider></bigslider>
+        
       </div>
     </div>
   </section>
 </template>
 
 <script>
-import mainheader from '../components/header'
-
+import mainheader from "../components/header";
+import bigslider from "../components/carousel/bigslider"
 export default {
   data() {
     return {
-      isSwitched:false,
-      onBackgroundColor:true
-    }
+      isSwitched: false,
+      onBackgroundColor: true
+    };
+  },
+  mounted() {
+ 
   },
   components: {
-      mainheader
+    mainheader,
+    bigslider
+  },
+  methods: {
+    
   }
-}
+};
 </script>
 
 <style>
@@ -51,8 +46,8 @@ export default {
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;

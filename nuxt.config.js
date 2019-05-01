@@ -31,7 +31,7 @@ export default {
   */
   css: [
     './css/main.css',
-    // './node_modules/bulma-carousel/dist/css/bulma-carousel.min.css'
+    './node_modules/bulma-carousel/dist/css/bulma-carousel.min.css'
   ],
 
   /*

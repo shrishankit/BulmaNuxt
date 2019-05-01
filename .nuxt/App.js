@@ -5,6 +5,8 @@ import '../node_modules/buefy/dist/buefy.css'
 
 import '../css/main.css'
 
+import '../node_modules/bulma-carousel/dist/css/bulma-carousel.min.css'
+
 import '../node_modules/bulma/css/bulma.css'
 
 import _6f6c098b from '../layouts/default.vue'
