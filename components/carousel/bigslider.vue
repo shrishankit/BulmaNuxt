@@ -1,16 +1,20 @@
 <template>
-    <section class="hero is-medium has-carousel">
+    <div >
+        
+        <section class="hero is-medium has-carousel">
           <div class="hero-head">
             
           </div>
           <div class="hero-body">
             <div id="carousel-demo" class="hero-carousel">
               <div class="item-1">
+                  <figure class="image">
                 <img src="../../assect/images/av2.jpg">
+                  </figure>
               </div>
               <div class="item-3">
                 <img src="../../assect/images/av3.jpg">
-              </div>
+              </div> 
               <div class="item-4">
                 <img src="../../assect/images/Avengers-Minimal-Art-Wallpaper.jpg">
               </div>
@@ -18,6 +22,9 @@
           </div>
           <div class="hero-foot"></div>
         </section>
+        <slot></slot>
+    </div>
+    
 </template>
 <script>
 import bulmaCarousel from "bulma-carousel";

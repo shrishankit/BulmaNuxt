@@ -7,6 +7,8 @@ import '../css/main.css'
 
 import '../node_modules/bulma-carousel/dist/css/bulma-carousel.min.css'
 
+import '../node_modules/bulma-extensions/dist/css/bulma-extensions.min.css'
+
 import '../node_modules/bulma/css/bulma.css'
 
 import _6f6c098b from '../layouts/default.vue'
@@ -14,7 +16,7 @@ import _6f6c098b from '../layouts/default.vue'
 const layouts = { "_default": _6f6c098b }
 
 export default {
-  head: {"title":"bulma_on_nuxt","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"A Bulma &amp; buefy based nuxt application with Dashboard"}],"link":[{"rel":"stylesheet","href":"https:\u002F\u002Fuse.fontawesome.com\u002Freleases\u002Fv5.7.2\u002Fcss\u002Fall.css","integrity":"sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr","crossorigin":"anonymous"},{"rel":"stylesheet","type":"text\u002Fcss","href":"\u002F\u002Fcdn.materialdesignicons.com\u002F2.4.85\u002Fcss\u002Fmaterialdesignicons.min.css"}],"style":[],"script":[]},
+  head: {"title":"bulma_on_nuxt","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"A Bulma &amp; buefy based nuxt application with Dashboard"}],"link":[{"rel":"stylesheet","href":"https:\u002F\u002Fuse.fontawesome.com\u002Freleases\u002Fv5.7.2\u002Fcss\u002Fall.css","integrity":"sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr","crossorigin":"anonymous"},{"rel":"stylesheet","type":"text\u002Fcss","href":"\u002F\u002Fcdn.materialdesignicons.com\u002F2.4.85\u002Fcss\u002Fmaterialdesignicons.min.css"}],"script":[{"src":".\u002Fnode_modules\u002Fbulma-extensions\u002Fbulma-quickview\u002Fdist\u002Fjs\u002Fbulma-quickview.min.js"}],"style":[]},
 
   render(h, props) {
     const loadingEl = h('NuxtLoading', { ref: 'loading' })

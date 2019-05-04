@@ -4,18 +4,36 @@
       <!-- {{ this.$store.getters['main/isCollapsed'] }} -->
 
       <div class="maincontent">
-        <mainheader></mainheader>
-        <bigslider></bigslider>
-        
+        <mainheader>
+          <!-- <div  slot="slider">
+            <bigslider></bigslider> 
+          </div>-->
+        </mainheader>
+        <section class="componentcontainer">
+          <cardscolumns></cardscolumns>
+          
+        </section>
       </div>
     </div>
   </section>
 </template>
 
 <script>
+// window.onbeforeunload = function() {
+//   return "Data will be lost if you leave the page, are you sure?";
+// };
+
 import mainheader from "../components/header";
-import bigslider from "../components/carousel/bigslider"
+import bigslider from "../components/carousel/bigslider";
+import cardscolumns from "../components/topcards/cardscolumns"
 export default {
+
+   components: {
+    mainheader,
+    bigslider,
+    cardscolumns
+  },
+
   data() {
     return {
       isSwitched: false,
@@ -23,14 +41,13 @@ export default {
     };
   },
   mounted() {
+    this.init();  
+  },
  
-  },
-  components: {
-    mainheader,
-    bigslider
-  },
   methods: {
-    
+    init() {
+      
+    }
   }
 };
 </script>

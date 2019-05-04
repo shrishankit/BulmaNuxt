@@ -16,9 +16,11 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
     ],
-    
+    script:[
+      {src:'./node_modules/bulma-extensions/bulma-quickview/dist/js/bulma-quickview.min.js'}
+    ],
     link: [{rel:"stylesheet", href:"https://use.fontawesome.com/releases/v5.7.2/css/all.css", integrity:"sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr", crossorigin:"anonymous"}]
-
+    
   },
 
   /*
@@ -31,7 +33,8 @@ export default {
   */
   css: [
     './css/main.css',
-    './node_modules/bulma-carousel/dist/css/bulma-carousel.min.css'
+    './node_modules/bulma-carousel/dist/css/bulma-carousel.min.css',
+    './node_modules/bulma-extensions/dist/css/bulma-extensions.min.css'
   ],
 
   /*
