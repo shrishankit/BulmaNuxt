@@ -1,10 +1,12 @@
 <template>
   <div class="sidebar">
+   
     <sidebar-menu :menu="menu" width="265px" theme="white-theme" :collapsed="collapsed" @collapse="onCollapse"/>
     <!-- Other Attributes
             :show-one-child="true"
             @itemClick="onItemClick"
     -->
+  
   </div>
 </template>
 <script>
