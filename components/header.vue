@@ -225,7 +225,7 @@
         <div class="navbar-end">
           <a
             class="navbar-item is-hidden-desktop-only"
-            href="https://github.com/jgthms/bulma"
+            href="https://github.com/shrishankit"
             target="_blank"
           >
             <span class="icon" style="color: #333;">
@@ -234,7 +234,7 @@
           </a>
           <a
             class="navbar-item is-hidden-desktop-only"
-            href="https://twitter.com/jgthms"
+            href="https://twitter.com/ShrishAnkit101"
             target="_blank"
           >
             <span class="icon" style="color: #55acee;">
