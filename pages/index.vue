@@ -19,6 +19,11 @@
               <linechart></linechart>
             </div>
           </div>
+          <div class="columns">
+            <div class="column">
+              <expandabletable></expandabletable>
+            </div>
+          </div>
         </section>
       </div>
     </div>
@@ -34,50 +39,22 @@ import mainheader from "../components/header";
 import bigslider from "../components/carousel/bigslider";
 import cardscolumns from "../components/topcards/cardscolumns";
 import tablelist from "../components/tablelist/tablelist";
+import expandabletable from '../components/table/expandabletable'
+
 export default {
   components: {
     mainheader,
     bigslider,
     cardscolumns,
     tablelist,
-    linechart
+    linechart,
+    expandabletable
   },
 
   data() {
     return {
       isSwitched: false,
       onBackgroundColor: true,
-
-      series: [{
-          name: 'series1',
-          data: [31, 40, 28, 51, 42, 109, 100]
-        }, {
-          name: 'series2',
-          data: [11, 32, 45, 32, 34, 52, 41]
-        }],
-        chartOptions: {
-          dataLabels: {
-            enabled: false
-          },
-          stroke: {
-            curve: 'smooth'
-          },
-
-
-          xaxis: {
-            type: 'datetime',
-            categories: ["2018-09-19T00:00:00", "2018-09-19T01:30:00", "2018-09-19T02:30:00",
-              "2018-09-19T03:30:00", "2018-09-19T04:30:00", "2018-09-19T05:30:00",
-              "2018-09-19T06:30:00"
-            ],
-          },
-          tooltip: {
-            x: {
-              format: 'dd/MM/yy HH:mm'
-            },
-
-          }
-        }
     };
   },
   mounted() {

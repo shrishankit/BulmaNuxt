@@ -1,6 +1,10 @@
 # bulma_on_nuxt
 
-> A Bulma &amp; buefy based nuxt application with Dashboard
+> A Bulma &amp; Buefy based nuxt application with Dashboard
+
+## Introduction
+
+> This is an intigration of many components which makes a nice admin UI which is Based on Bulma CSS
 
 ## Build Setup
 

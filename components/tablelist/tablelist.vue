@@ -1,6 +1,6 @@
 <template>
   <div class="tablelist">
-    <div class="card events-card">
+    <div class="card events-card round7">
       <header class="card-header">
         <p class="card-header-title">Events</p>
         <a href="#" class="card-header-icon" aria-label="more options">
