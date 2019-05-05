@@ -12,7 +12,7 @@
         </a>
         <a
           class="navbar-item is-hidden-desktop"
-          href="https://github.com/jgthms/bulma"
+          href="https://github.com/shrishankit"
           target="_blank"
         >
           <span class="icon" style="color: #333;">
@@ -20,7 +20,7 @@
           </span>
         </a>
 
-        <a class="navbar-item is-hidden-desktop" href="https://twitter.com/jgthms" target="_blank">
+        <a class="navbar-item is-hidden-desktop" href="https://twitter.com/ShrishAnkit101" target="_blank">
           <span class="icon" style="color: #55acee;">
             <i class="fa fa-twitter"></i>
           </span>
