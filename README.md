@@ -6,6 +6,10 @@
 
 > This is an intigration of many components which makes a nice admin UI which is Based on Bulma CSS
 
+## Demo
+
+[https://unruffled-jones-1bdd33.netlify.com]
+
 ## Build Setup
 
 ``` bash
