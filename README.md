@@ -1,4 +1,4 @@
-# bulma_on_nuxt
+# Bulma with Nuxt
 
 > A Bulma &amp; Buefy based nuxt application with Dashboard
 
@@ -8,7 +8,7 @@
 
 ## Demo
 
-[https://unruffled-jones-1bdd33.netlify.com]
+[Click to see demo](https://unruffled-jones-1bdd33.netlify.com)
 
 ## Build Setup
 
