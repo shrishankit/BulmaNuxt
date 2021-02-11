@@ -13,7 +13,7 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/bulma": "^1.2.1",
-    "apexcharts": "^3.6.9",
+    "apexcharts": "^3.24.0",
     "bulma-carousel": "^4.0.4",
     "bulma-extensions": "^6.2.5",
     "core-js": "^2.6.5",
